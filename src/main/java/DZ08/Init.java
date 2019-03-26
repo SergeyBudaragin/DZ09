@@ -1,4 +1,4 @@
-package DZ07;
+package DZ08;
 
 import org.openqa.selenium.WebDriver;
 

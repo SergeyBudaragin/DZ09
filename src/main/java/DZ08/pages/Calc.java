@@ -1,6 +1,6 @@
-package DZ07.pages;
+package DZ08.pages;
 
-import DZ07.Init;
+import DZ08.Init;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -19,7 +19,7 @@ public class Calc extends BasePage {
 
     // Кнопка несколько поездок
     @FindBy(xpath = "//*[contains(text(), 'Несколько')]")
-    public WebElement severalTripsButtob;
+    public WebElement severalTripsButton;
 
     // Поле ввода страны
     @FindBy(id = "Countries")
@@ -95,7 +95,7 @@ public class Calc extends BasePage {
     }
 
     /**
-     * Метод для заполнения фио     *
+     * Метод для заполнения фио
      *
      * @param element веб-элемент
      * @param name    фамилия и имя

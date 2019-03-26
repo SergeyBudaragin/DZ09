@@ -1,6 +1,6 @@
-package DZ07.pages;
+package DZ08.pages;
 
-import DZ07.Init;
+import DZ08.Init;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
